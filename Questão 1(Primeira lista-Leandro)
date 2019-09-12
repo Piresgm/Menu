@@ -10,17 +10,17 @@ int main(){
 	
 	do{
 		printf("MENU\n"
-			   "opções:\n\n"
+		       "opções:\n\n"
 		       "Digite 1\n"
-			   "Digite 2\n"
+		       "Digite 2\n"
 		       "Digite 3\n"
-	       	   "Digite 4\n"
+	       	       "Digite 4\n"
 		       "Digite 5\n"
 		       "Digite 6\n"
 		       "Digite 7\n"
-	           "Digite 8\n"
-			   "Digite 9\n"
-			   "Digite 10\n");
+	               "Digite 8\n"
+		       "Digite 9\n"
+		       "Digite 10\n");
 		
 		scanf("%d",&i);
 		
