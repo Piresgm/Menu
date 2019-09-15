@@ -15,11 +15,11 @@ int main(){
 		       "Digite 1 - Para saber se é par ou impar\n"
 		       "Digite 2 - Para calcular a potênciação de um número de ponto flutuante\n"
 		       "Digite 3 - Para calcular uma raiz de um número de ponto flutuante\n"
-	       	   "Digite 4 - Para descobrir se um ano é bissexto\n"
+	       	       "Digite 4 - Para descobrir se um ano é bissexto\n"
 		       "Digite 5 - Para calcular a média ponderada de 3 notas\n"
 		       "Digite 6\n"
 		       "Digite 7\n"
-	           "Digite 8\n"
+	               "Digite 8\n"
 		       "Digite 9\n"
 		       "Digite 10\n");
 		
