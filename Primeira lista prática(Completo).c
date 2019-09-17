@@ -70,11 +70,11 @@ int main(){
 				
 			case 4:{
 				int ano;
-			  printf("\n\nDigite o ano: ");
- 			 	  scanf("%d", &ano);
+			 printf("\n\nDigite o ano: ");
+ 			   scanf("%d", &ano);
  			 
   			if (ano % 4 == 0) {
-   				printf("\nAno bissexto\n\n");
+   			printf("\nAno bissexto\n\n");
  			}else {
     			printf("\nAno não bissexto\n\n");
  			   }
@@ -92,19 +92,19 @@ int main(){
 				printf("\nNota 2: ");
     			scanf("%f", &n2);
     		
-   			printf("\nNota 3: ");
-   				scanf("%f", &n3);
+   			        printf("\nNota 3: ");
+   		        scanf("%f", &n3);
     
 				media = (n1+n2+2*n3)/4;
 			
 			if (media >=6){
-        		printf("\nSua media foi: %.2f\n" , media);
-       			printf("\nParabens voce foi aprovado\n\n");
+        		               printf("\nSua media foi: %.2f\n" , media);
+       			               printf("\nParabens voce foi aprovado\n\n");
        		
     		} else if(media < 6) {
         	
 				printf("\nSua media foi: %.2f" , media);
-       			printf("\nInfelizmente voce foi reprovado, estude mais um pouco!\n\n");
+       			        printf("\nInfelizmente voce foi reprovado, estude mais um pouco!\n\n");
     		}
 		
 				break;
@@ -113,7 +113,7 @@ int main(){
 			case 6:{
 				float n1,n2,media;
 				printf("Digite as duas notas: \n\n");
-				scanf("%f %f",&n1,&n2);
+				  scanf("%f %f",&n1,&n2);
 				media = (n1+n2)/2;
 				if((n1 >= 0)&&(n1 <= 10)&&(n2 >= 0)&&(n2 <= 10)){
 					printf("Esta nota é válida com %0.2f de média\n",media);
@@ -125,28 +125,28 @@ int main(){
 		    	}
 				
 			case 7:{
-				printf("Sem criatividade.\n\n");
+				printf("Nda\n\n");
 				break;
 			    }
 			case 8:{
-				printf("Obrigado professor.\n\n");
+				printf("Nda\n\n");
 				break;
 		     	}
 			case 9:{
-				printf("Foi dificil passar do app de giro do github.\n\n");
+				printf("Nda\n\n");
 				break;
 			    }
 			case 10:{
 				char nome[61];
 			int mtc;
 			
-			printf("Digite seu nome: ");
-			scanf("%s", &nome);
+			printf("Digite seu nome:\n\n ");
+			  scanf("%s", &nome);
 			
-			printf("Digite aqui sua matricula: ");
-			scanf("%d", &mtc);
+			printf("Digite aqui sua matricula:\n\n ");
+			  scanf("%d", &mtc);
 			
-			printf("Ola %s sua matricula em Hexadecimal é: %2X", nome, mtc);
+			printf("Ola %s sua matricula em Hexadecimal é: %2X\n\n", nome, mtc);
 			break;
 			    }
 			default:
